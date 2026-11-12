@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Sounds>
+		<!-- Radioaktiv Lightning -->
+		<Sound>
+			<Id>
+				<TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+				<SubtypeId>WM_Lightning</SubtypeId>
+			</Id>
+			<Category>AMB</Category>
+			<MaxDistance>5000</MaxDistance>
+			<Volume>0.8</Volume>
+			<PitchVariation>100</PitchVariation>
+			<Loopable>false</Loopable>
+			<PreventSynchronization>0</PreventSynchronization>
+			<Waves>
+				<Wave Type="D3">
+					<Start>ARC\EVENT\Lightning_0.wav</Start>
+				</Wave>
+				<Wave Type="D3">
+					<Start>ARC\EVENT\Lightning_1.wav</Start>
+				</Wave>
+				<Wave Type="D3">
+					<Start>ARC\EVENT\Lightning_2.wav</Start>
+				</Wave>
+				<Wave Type="D3">
+					<Start>ARC\EVENT\Lightning_3.wav</Start>
+				</Wave>
+			</Waves>
+			<StreamSound>true</StreamSound>
+		</Sound>
+       
+    </Sounds>
+</Definitions>
